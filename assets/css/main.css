@@ -1,0 +1,100 @@
+.blogs-container {
+    width: 95%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.create-blog {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.create-blog:hover {
+    text-decoration: underline;
+}
+
+.blog-card {
+    width: 48%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid rgb(68, 18, 232);
+    border-radius: 0.5rem;
+}
+
+.blog-card .blog-content p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.blog-card .blog-about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-about .blog-author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-author span {
+    font-weight: 700;
+}
+
+.blog-about .blog-author img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.blog-card .blog-about .read-btn {
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(68, 18, 232);
+    border-radius: 0.5rem;
+    background-color: rgb(68, 18, 232);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.blog-about .read-btn:hover {
+    background-color: white;
+    color: rgb(68, 18, 232);
+}
+
+.like-comment .like-count {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.like-comment i.fa-thumbs-up {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1024px) {
+    .blog-card {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .blog-card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="register-container">
+      <h1>Register</h1>
+      <form>
+        <label for="">
+          Username
+          <input type="text" placeholder="username" name="username" />
+        </label>
+        <label for="">
+          Email
+          <input type="email" placeholder="email" name="email" />
+        </label>
+        <label for="">
+          Password
+          <input type="password" placeholder="password" name="password" />
+        </label>
+        <label for="">
+          Confirm Password
+          <input
+            type="password"
+            placeholder="confirm pass"
+            name="confirmPassword"
+          />
+        </label>
+        <label for="">
+          upload photo
+          <input
+            type="file"
+            placeholder="upload photo"
+            name="photo"
+            accept="image/*"
+          />
+        </label>
+        <div class="profile-photo">
+          <img
+            src="./assets/images/profile_template.jpg"
+            alt=""
+            width="200px"
+          />
+        </div>
+        <button class="register-btn" name="register">Register</button>
+      </form>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

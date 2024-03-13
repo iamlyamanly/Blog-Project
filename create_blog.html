@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a blog</title>
+    <link rel="stylesheet" href="./assets/css/createblog.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Create Blog</h1>
+      <div class="nav-link">
+        <a href="./index.html">Go to all blogs</a>
+      </div>
+      <div class="user-profile">
+        <p>Username</p>
+        <img
+          src="./assets/images/profile_template.jpg"
+          alt=""
+          class="user-img"
+        />
+        <img src="./assets/images/logout.svg" alt="" class="logout" />
+      </div>
+    </header>
+    <form>
+      <label for="">
+        Blog Title
+        <input type="text" class="title" />
+      </label>
+      <label for="">
+        Blog Body
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="description"
+        ></textarea>
+      </label>
+      <button class="create-btn">Create Blog</button>
+    </form>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"
+      integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/findUser.js"></script>
+    <script src="./assets/js/createBlog.js"></script>
+  </body>
+</html>

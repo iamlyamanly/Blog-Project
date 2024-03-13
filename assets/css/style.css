@@ -1,0 +1,57 @@
+.register-container {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    >h1 {
+        text-align: center;
+        margin: 1em;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(68, 18, 232);
+    width: 50%;
+    padding: 1em 0;
+}
+
+form label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+input {
+    width: 60%;
+    padding: 0.5em;
+    background-color: rgb(225, 225, 225);
+    border-radius: 0.25em;
+    color: black;
+    border: none;
+}
+
+.register-btn {
+    padding: 0.75em;
+    background-color: rgb(68, 18, 232);
+    color: white;
+    border-radius: 0.5em;
+    border: none;
+    width: 80%;
+}
+
+.register-btn:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+}
+
+.profile-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1em;
+}

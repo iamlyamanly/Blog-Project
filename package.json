@@ -1,0 +1,10 @@
+{
+    "author": {
+        "name": "Rasif Taghizade",
+        "email": "rasiftagieyv7@gmail.com"
+    },
+    "scripts": {
+        "start": "json-server --watch db/data.json -p 3000",
+        "dev": "nodemon server/server.js"
+    }
+}
